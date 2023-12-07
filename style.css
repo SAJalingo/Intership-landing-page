@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+nav{
+    padding: 16px 64px;
+}
+nav .nav_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+}
+button{
+    background-color: black;
+    padding: 16px 32px;
+    color: white;
+    font-weight: 900;
+    border: none;
+}
+
+/*Tablet-Responsive design*/
+
+@media screen and (max-width:768px) {
+    nav{
+        padding: 16px 32px;
+    }
+}
+
+/*mobile-Responsive design*/
+
+@media screen and (max-width:468px) {
+    nav{
+        padding: 16px 16px;
+    }
+    button{
+        padding: 12px 24px;
+    }
+}
