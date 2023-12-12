@@ -14,7 +14,6 @@ nav .nav_container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aqua;
 }
 button{
     background-color: black;
