@@ -58,6 +58,9 @@ header .header_container .header_image{
     nav{
         padding: 16px 32px;
     }
+    header{
+        padding: 16px 32px;
+    }
     header .header_container{
         flex-direction: column;
     }
