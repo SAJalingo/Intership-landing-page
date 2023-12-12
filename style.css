@@ -72,7 +72,7 @@ header .header_container .header_image{
         width: 100%;
     }
     header .header_container .header_image_w{
-        width: 444px;
+        height: 444px;
     }
 }
 
