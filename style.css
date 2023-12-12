@@ -71,9 +71,7 @@ header .header_container .header_image{
     header .header_container .header_image_w{
         width: 100%;
     }
-    header .header_container .header_image_w{
-        height: 444px;
-    }
+
 }
 
 /*mobile-Responsive design*/
@@ -89,6 +87,6 @@ header .header_container .header_image{
         padding: 80px 16px;
     }
     header .header_container .header_image_w{
-        width: 444px;
+        height: 444px;
     }
 }
