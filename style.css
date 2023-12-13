@@ -60,12 +60,13 @@ header .header_container .header_image{
     font-weight: bold;
 }
 .service_container .service_content{
+    margin-top: 80px;
     display: flex;
-    gap: 40px;
+    justify-content: space-between;
+
 }
-.service_img{
-    width: 405px;
-}
+
+
 
 /*Tablet-Responsive design*/
 
