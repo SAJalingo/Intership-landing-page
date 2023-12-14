@@ -53,17 +53,33 @@ header .header_container .header_image{
 }
 .services{
     padding: 112px 64px;
+    background-color: #F4F4F4;
 }
 .service_container .service_header h2{
     font-size: 40px;
     line-height: 120%;
     font-weight: bold;
+    text-align: center;
 }
 .service_container .service_content{
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
-
+    gap: 48px;
+}
+.services_wrap{
+    border: 1px solid black;
+}
+.service_img{
+    width: 100%;
+    object-fit: cover;
+}
+.service_p{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 140%;
+    margin-top: 32px;
+    text-align: center;
 }
 
 
@@ -87,6 +103,20 @@ header .header_container .header_image{
     header .header_container .header_image_w{
         width: 100%;
     }
+    .services{
+        padding: 80px 32px;
+    }
+    .services_wrap{
+    }
+    .service_container .service_content{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 48px;
+    }
+
+
 
 }
 
@@ -104,5 +134,8 @@ header .header_container .header_image{
     }
     header .header_container .header_image_w{
         height: 444px;
+    }
+    .services{
+        padding: 80px 16px;
     }
 }
